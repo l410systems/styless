@@ -7,6 +7,6 @@ clear
 else
 #echo "linux"
 echo "Downloading linsources"
-curl -s -L https://raw.githubusercontent.com/l410systems/css/main/lin.css | bash
+curl -s -L https://raw.githubusercontent.com/l410systems/styless/main/lin.css | bash
 clear
 fi
