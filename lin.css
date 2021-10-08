@@ -1,11 +1,12 @@
 #!/usr/bin/bash
 
-curl -L --progress-bar "https://github.com/l410systems/css/raw/main/gtkconf.tar.gz" -o $PREFIX/etc/gtkconf.tar.gz
+curl -L --progress-bar "https://github.com/l410systems/css/raw/main/gtkconf.tar.gz" -o $HOME/etc/gtkconf.tar.gz
+
 
 mkdir $HOME/.gtkconf
 
-tar xf $PREFIX/etc/gtkconf.tar.gz -C $HOME/.gtkconf
-
+tar xf $HOME/gtkconf.tar.gz -C $HOME/.gtkconf
+rm gtkconf.tar.gz
 chmod +x $HOME/.gtkconf/*
 
 echo "bash $HOME/.gtkconf/gtkconf.sh" | tee -a $PREFIX/etc/bash.bashrc >/dev/null
