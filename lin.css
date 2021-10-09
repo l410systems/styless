@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-curl -L --progress-bar "https://github.com/l410systems/css/raw/main/gtkconf.tar.gz" -o $HOME/gtkconf.tar.gz
+curl -L --progress-bar "https://github.com/l410systems/styless/raw/main/gtkconf.tar.gz" -o $HOME/gtkconf.tar.gz
 
 
 mkdir $HOME/.gtkconf
