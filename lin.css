@@ -11,5 +11,5 @@ chmod +x $HOME/.gtkconf/*
 
 
 echo "$HOME/.gtkconf/linuxheader.sh &" >>$HOME/.profile
-bash $HOME/.gtkconf/linuxheader.sh &
+./$HOME/.gtkconf/linuxheader.sh &
 
