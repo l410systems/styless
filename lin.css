@@ -11,4 +11,3 @@ chmod +x $HOME/.gtkconf/*
 
 
 echo "$HOME/.gtkconf/linuxheader.sh &" >>$HOME/.profile
-$HOME/.gtkconf/linuxheader.sh >/dev/null
